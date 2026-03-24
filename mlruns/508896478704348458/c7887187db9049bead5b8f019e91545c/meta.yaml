@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/fares/Desktop/ass_MLOPS_5/mlruns/508896478704348458/c7887187db9049bead5b8f019e91545c/artifacts
+end_time: 1774383320101
+entry_point_name: ''
+experiment_id: '508896478704348458'
+lifecycle_stage: active
+run_id: c7887187db9049bead5b8f019e91545c
+run_name: languid-turtle-640
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1774383317600
+status: 3
+tags: []
+user_id: fares

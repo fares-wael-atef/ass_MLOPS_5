@@ -1,0 +1,23 @@
+artifact_path: file:///Users/fares/Desktop/ass_MLOPS_5/mlruns/508896478704348458/models/m-0bf6a765e57746a38e5c4b9ff3580a33/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.13.12
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.8.0
+    skops_trusted_types: null
+mlflow_version: 3.10.1
+model_id: m-0bf6a765e57746a38e5c4b9ff3580a33
+model_size_bytes: 177230
+model_uuid: m-0bf6a765e57746a38e5c4b9ff3580a33
+prompts: null
+run_id: c7887187db9049bead5b8f019e91545c
+utc_time_created: '2026-03-24 20:15:17.684191'
