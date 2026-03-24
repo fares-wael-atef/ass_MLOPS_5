@@ -18,9 +18,6 @@ with mlflow.start_run() as run:
 
     accuracy = accuracy_score(y_test, clf.predict(X_test))
 
-    # CHANGE THIS LINE to 0.70 for failed test, or remove for success
-    accuracy = 0.70
-
     mlflow.log_param("n_estimators", 100)
     mlflow.log_metric("accuracy", accuracy)
 
