@@ -6,7 +6,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score
 
-# Use local MLflow tracking (saves to ./mlruns folder)
+# Use local MLflow tracking
 mlflow.set_tracking_uri("file:./mlruns")
 mlflow.set_experiment("assignment5")
 
@@ -27,6 +27,9 @@ with mlflow.start_run() as run:
     # Evaluate
     y_pred = clf.predict(X_test)
     accuracy = accuracy_score(y_test, y_pred)
+
+    # Force low accuracy for failed deploy test
+    accuracy = 0.70
 
     # Log to MLflow
     mlflow.log_param("n_estimators", 100)
