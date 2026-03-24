@@ -1,0 +1,10 @@
+artifact_location: file:///Users/fares/Desktop/ass_MLOPS_5/mlruns/508896478704348458/models/m-dfa7d3cf1f8240fc85c1ef9931548d4b/artifacts
+creation_timestamp: 1774384119217
+experiment_id: '508896478704348458'
+last_updated_timestamp: 1774384121569
+model_id: m-dfa7d3cf1f8240fc85c1ef9931548d4b
+model_type: null
+name: model
+source_run_id: 3d0ec3933c634fbb9449a2ac6a44435f
+status: 2
+status_message: null

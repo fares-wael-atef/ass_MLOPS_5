@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/fares/Desktop/ass_MLOPS_5/mlruns/508896478704348458/3d0ec3933c634fbb9449a2ac6a44435f/artifacts
+end_time: 1774384121571
+entry_point_name: ''
+experiment_id: '508896478704348458'
+lifecycle_stage: active
+run_id: 3d0ec3933c634fbb9449a2ac6a44435f
+run_name: intelligent-calf-327
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1774384119140
+status: 3
+tags: []
+user_id: fares
